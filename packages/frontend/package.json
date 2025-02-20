@@ -5,9 +5,6 @@
   "publishConfig": {
     "access": "public"
 },
-"engines": {
-  "node": "16.x"
-},
   "dependencies": {
     "@ledgerhq/hw-transport-u2f": "^5.34.0",
     "@near-wallet-selector/account-export": "8.1.4",
