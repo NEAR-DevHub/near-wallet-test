@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.9' 
-      - run: yarn install --frozen-lockfile
+      - run: yarn install
       - run: yarn lint
       - run: yarn test
       - run: NEAR_WALLET_ENV=testnet yarn bundle
