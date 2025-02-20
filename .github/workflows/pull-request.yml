@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 14.x
           cache: 'yarn'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' 
       - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn test
