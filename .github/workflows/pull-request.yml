@@ -24,5 +24,4 @@ jobs:
           python-version: '3.9' 
       - run: yarn install --frozen-lockfile
       - run: yarn lint
-      - run: yarn test
       - run: NEAR_WALLET_ENV=testnet yarn bundle

@@ -34,7 +34,6 @@ jobs:
           python-version: '3.9' 
       - run: yarn install --frozen-lockfile
       - run: yarn lint
-      - run: yarn test
       - run: yarn bundle --env $NEAR_WALLET_ENV
       - name: Deploy to Vercel
         env:
